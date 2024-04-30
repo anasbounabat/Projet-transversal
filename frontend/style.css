@@ -1,0 +1,530 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #dddddd;
+}
+
+/* HEADER NAVBAR */
+
+header {
+  margin: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin: 0 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* SWIPER */
+
+.swiper {
+  height: 60vh;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 18px;
+  padding-left: 100px;
+}
+
+.swiper-slide p {
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 72px;
+  color: #fff;
+}
+
+.subtitle {
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.slide-dw {
+  background-image: url(./Slider1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-cd {
+  background-image: url(./Slider2.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-cdeb {
+  background-image: url(./Slider3.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* NEWS */
+
+.news-title {
+  margin: 24px 0;
+}
+
+.news-title h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.news-item {
+  width: 30%;
+  margin-bottom: 25px;
+}
+
+/* Style pour les images de nouvelles */
+.news-item img {
+  width: 50%;
+  height: auto;
+}
+
+/* Style pour les titres de nouvelles */
+.news-item h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+/* Style pour les descriptions de nouvelles */
+.news-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.news-background {
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 20px;
+  margin: 20px 20px 20px 0;
+  border: 1px solid #ccc;
+  border-top-right-radius: 14% 28%;
+}
+
+.news-background a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.news-background a:hover {
+  transition: 0.5s;
+  background-color: #0056b3;
+}
+
+/* ABOUT */
+
+.about-img {
+  width: 650px;
+  height: 100%;
+  border-top-right-radius: 30%;
+}
+
+.text {
+  padding: 20px;
+  font-size: 25px;
+  gap: 15px;
+}
+
+.text h1 {
+  text-align: center;
+  font-size: 60px;
+  background-image: linear-gradient(to right, #fdcc7f, #c49f78);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 50px;
+}
+
+.section2 {
+  display: flex;
+  background-color: rgb(0, 155, 169);
+  border-top-right-radius: 30%;
+  margin-bottom: 100px;
+  margin-right: 25px;
+}
+
+.about-img {
+  width: 650px;
+  height: 100%;
+  border-top-right-radius: 30%;
+}
+
+.text {
+  padding: 20px;
+  font-size: 25px;
+  gap: 15px;
+}
+
+.text h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.section2 {
+  display: flex;
+  background-color: rgb(0, 155, 169);
+  border-top-right-radius: 30%;
+  margin-bottom: 100px;
+  margin-right: 25px;
+}
+
+/* Billetterie */
+
+.ticket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 60vh;
+}
+
+.ticketing-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.ticketing-section h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.ticketing-section p {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.ticket-option {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ticket-option h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.ticket-option p {
+  font-size: 16px;
+  color: #666;
+}
+
+.ticket-option button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.ticket-option button:hover {
+  background-color: #0056b3;
+}
+
+/* FAQ */
+
+.faq-section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+
+.faq details {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.faq summary {
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.faq p {
+  margin: 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-part1 h3 {
+  font-size: 24px;
+}
+
+.footer-part1 p {
+  font-size: 16px;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+}
+
+.socials li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-part1 ul li a i {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 15px;
+}
+
+.footer-hr {
+  border: 1px solid;
+  margin: 20px 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links a {
+  margin: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-about {
+  width: 20%;
+}
+
+.footer-part2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+/* BTN SCROLL */
+
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00218d;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+.scroll-to-top-btn:hover {
+  background-color: #1f5895;
+  scale: 1.2;
+}
+
+.scroll-to-top-btn .arrow {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  transform: rotate(135deg);
+}
+
+/* RESPONSIVE */
+
+/* Styles pour les écrans de taille tablette */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+  }
+
+  .swiper-slide {
+    padding-left: 0;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .news-item {
+    width: 100%;
+  }
+
+  .news-item img {
+    width: 70%;
+  }
+
+  .news-item h2 {
+    font-size: 18px;
+  }
+
+  .news-item p {
+    font-size: 14px;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .text {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .text h1 {
+    font-size: 48px;
+  }
+
+  .section2 {
+    border-top-right-radius: 0;
+  }
+
+  .ticket {
+    height: auto;
+  }
+
+  .ticketing-section {
+    width: 100%;
+  }
+
+  .ticket-option {
+    margin-top: 10px;
+  }
+
+  .ticket-option h3 {
+    font-size: 18px;
+  }
+
+  .ticket-option p {
+    font-size: 14px;
+  }
+
+  .faq details {
+    width: 100%;
+  }
+
+  .footer-part1 {
+    width: 100%;
+  }
+
+  .footer-part1 h3 {
+    font-size: 20px;
+  }
+
+  .footer-part1 p {
+    font-size: 14px;
+  }
+
+  .socials li {
+    margin: 0 5px;
+  }
+
+  .footer-part1 ul li a i {
+    font-size: 24px;
+  }
+
+  .footer-links {
+    display: none;
+  }
+
+  .footer-contacts {
+    width: 100%;
+  }
+
+  .footer-contacts h1 {
+    margin: 5px 0;
+  }
+
+  .footer-about {
+    width: 100%;
+  }
+
+  .footer-links a {
+    margin: 5px 10px;
+  }
+
+  .footer-about {
+    width: 100%;
+  }
+
+  .footer-part2 {
+    flex-direction: column;
+  }
+}
+
+/* Styles pour les écrans mobile */
+@media (max-width: 480px) {
+}
